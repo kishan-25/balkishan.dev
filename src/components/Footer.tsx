@@ -43,14 +43,7 @@ const Footer = () => {
                   Contact
                 </Link>
               </li>
-              <li>
-                <Link 
-                  href="/privacy"
-                  className="text-gray-400 hover:text-blue-400 transition duration-300"
-                >
-                  Privacy Policy
-                </Link>
-              </li>
+              
             </ul>
           </div>
 
@@ -58,8 +51,8 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-semibold mb-4">Contact</h4>
             <div className="space-y-2">
-              <p className="text-gray-400">Mumbai, India</p>
-              <p className="text-gray-400">balkishan@example.com</p>
+              <p className="text-gray-400">Morena, India</p>
+              <p className="text-gray-400">bkbajpay0905@gmail.com</p>
               <div className="flex space-x-4 mt-4">
                 <Link 
                   href="#" 
@@ -97,12 +90,6 @@ const Footer = () => {
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 text-sm">© {currentYear} Balkishan. All rights reserved.</p>
             <div className="mt-4 md:mt-0">
-              <Link 
-                href="/privacy" 
-                className="text-gray-400 hover:text-blue-400 text-sm transition duration-300"
-              >
-                Privacy Policy
-              </Link>
               <span className="text-gray-600 mx-2">|</span>
               <Link 
                 href="/terms" 

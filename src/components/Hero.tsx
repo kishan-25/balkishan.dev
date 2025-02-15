@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import mainicon from "@/Images/mainIcon.svg";
+import mainicon from "@/assets/mainIcon.svg";
 
 export default function Hero() {
   return (
