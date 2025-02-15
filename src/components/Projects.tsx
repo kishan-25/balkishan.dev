@@ -3,6 +3,7 @@
 import Image from "next/image";
 import React from "react";
 import { CardBody, CardContainer, CardItem } from "@/components/ui/3d-card";
+import Link from "next/link";
 
 // Example images (replace with your own imports)
 import MetroImage from "@/assets/metromap.png";
@@ -73,6 +74,7 @@ export function ThreeDCardDemo() {
               </CardItem>
             </div>
             {/* Bottom Content (Button) */}
+            <Link href="https://github.com/kishan-25/Metro-Routing-and-Scheduling-System">
             <div className="mt-6 flex justify-center items-center">
               <CardItem
                 translateZ={20}
@@ -82,6 +84,7 @@ export function ThreeDCardDemo() {
                 Github
               </CardItem>
             </div>
+            </Link>
           </CardBody>
         </CardContainer>
 
@@ -132,6 +135,7 @@ export function ThreeDCardDemo() {
                 />
               </CardItem>
             </div>
+            <Link href="https://github.com/kishan-25/NavSarjan">
             <div className="mt-6 flex justify-center items-center">
               <CardItem
                 translateZ={20}
@@ -141,6 +145,7 @@ export function ThreeDCardDemo() {
                 Github
               </CardItem>
             </div>
+            </Link>
           </CardBody>
         </CardContainer>
 
@@ -191,6 +196,7 @@ export function ThreeDCardDemo() {
                 />
               </CardItem>
             </div>
+            <Link href="https://github.com/kishan-25/Solving-Bufferbloat-using-Multilevel-Feedback-Queues-MLFQ-">
             <div className="mt-6 flex justify-center items-center">
               <CardItem
                 translateZ={20}
@@ -200,6 +206,7 @@ export function ThreeDCardDemo() {
                 Github
               </CardItem>
             </div>
+            </Link>
           </CardBody>
         </CardContainer>
 
@@ -249,6 +256,7 @@ export function ThreeDCardDemo() {
                 />
               </CardItem>
             </div>
+            <Link href="https://github.com/kishan-25/Hackathon_">
             <div className="mt-6 flex justify-center items-center">
               <CardItem
                 translateZ={20}
@@ -258,6 +266,7 @@ export function ThreeDCardDemo() {
                 Github
               </CardItem>
             </div>
+            </Link>
           </CardBody>
         </CardContainer>
 
@@ -307,6 +316,7 @@ export function ThreeDCardDemo() {
                 />
               </CardItem>
             </div>
+            <Link href="https://github.com/kishan-25/balkishan.dev">
             <div className="mt-6 flex justify-center items-center">
               <CardItem
                 translateZ={20}
@@ -316,6 +326,7 @@ export function ThreeDCardDemo() {
                 Github
               </CardItem>
             </div>
+            </Link>
           </CardBody>
         </CardContainer>
 
