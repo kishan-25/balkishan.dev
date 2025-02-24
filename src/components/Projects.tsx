@@ -15,7 +15,7 @@ import StudynotionImage from "@/assets/StudyNotion.png";
 
 export function ThreeDCardDemo() {
   return (
-    <>
+    <div id="projects">
       <h1 className="text-center text-white font-bold text-4xl">
         Projects
       </h1>
@@ -388,6 +388,6 @@ export function ThreeDCardDemo() {
           </CardBody>
         </CardContainer>
       </div>
-    </>
+    </div>
   );
 }

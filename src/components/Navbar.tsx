@@ -17,17 +17,18 @@ export default function Navbar() {
             name:"About",
             link:"#about",
         },
-        {
-            name:"Experience",
-            link:"#experience",
-        },
+        
         {
             name:"Projects",
             link:"#projects",
         },
         {
-            name:"Certificates",
-            link:"#certificates",
+            name:"Achievements",
+            link:"#achievements",
+        },
+        {
+            name:"Experience",
+            link:"#experience",
         },
         {
             name:"Footer",

@@ -25,7 +25,7 @@ export const projects = [
 
 export function CardHoverEffectDemo() {
   return (
-    <div>
+    <div id="achievements">
        <h1 className="text-center font-bold text-3xl">Achievements</h1>
         <div className="max-w-5xl mx-auto px-8">
         <HoverEffect items={projects} />
